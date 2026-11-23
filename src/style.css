@@ -208,3 +208,12 @@ table.sl th{font-family:"Nunito",sans-serif;font-size:.8em;padding:2px 8px;color
 .pagenext .btn{text-decoration:none;display:inline-block}
 .pagenext .btn.go{margin-left:auto}
 @media (max-width:640px){.pagetabs a{padding:8px 4px;font-size:.85em}.pagetabs a .pn{display:none}}
+
+/* KaTeX */
+.katex{font-size:1.07em}
+.work .katex,.big .katex{font-size:1.05em}
+.katex .hl{background:#ffe08a;border-radius:4px;box-shadow:0 0 0 2px #ffe08a}
+.katex .hl2{background:#bfe3ff;border-radius:4px;box-shadow:0 0 0 2px #bfe3ff}
+.katex .hl3{background:#c9f2d4;border-radius:4px;box-shadow:0 0 0 2px #c9f2d4}
+.katex .red{color:var(--bad)}.katex .green{color:var(--ok)}.katex .blue{color:var(--pri)}.katex .org{color:#c2410c}.katex .pur{color:var(--pur)}
+.mcs .katex{font-size:1.1em}
