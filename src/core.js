@@ -251,7 +251,7 @@ class Practice {
       ch = q.keep ? ch : shuffle(ch); q._ch = ch;
       ansH = `<div class="mcs">${ch.map((c, i) => `<button data-i="${i}"><span class="k">${KEYS[i]}</span><span>${c.h}</span></button>`).join('')}</div>`;
     } else {
-      ansH = `<div class="ans">${q.pre || ''}<input inputmode="text" autocomplete="off" placeholder="${q.fmt ? '3/4' : 'e.g. -5, 3/4, 1 1/2'}">${q.post || ''}<button class="btn chk">${L('Check', '檢查')}</button></div>`;
+      ansH = `<div class="ans">${q.pre || ''}<input inputmode="text" autocomplete="off">${q.post || ''}<button class="btn chk">${L('Check', '檢查')}</button></div>`;
     }
     w.innerHTML = `<div class="qcard"><div class="qhead"><span>Q${qno}</span><span class="qtype">${L(q.gname[0], q.gname[1])}</span></div>
       <div class="qtext">${q.q}</div>${q.fig ? `<div class="qfig">${q.fig}</div>` : ''}${ansH}
