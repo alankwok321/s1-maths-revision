@@ -217,3 +217,8 @@ table.sl th{font-family:"Nunito",sans-serif;font-size:.8em;padding:2px 8px;color
 .katex .hl3{background:#c9f2d4;border-radius:4px;box-shadow:0 0 0 2px #c9f2d4}
 .katex .red{color:var(--bad)}.katex .green{color:var(--ok)}.katex .blue{color:var(--pri)}.katex .org{color:#c2410c}.katex .pur{color:var(--pur)}
 .mcs .katex{font-size:1.1em}
+
+.brand .logoimg{width:36px;height:36px;flex:none;display:block}
+@media (max-width:640px){.brand .logoimg{width:30px;height:30px}}
+
+@media (max-width:640px){.brand .bzh{display:none}.langs button{white-space:nowrap}}
